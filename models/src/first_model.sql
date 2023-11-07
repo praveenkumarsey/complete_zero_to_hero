@@ -10,9 +10,9 @@ with source_data as (
     union all
     select
         2 as id,
-        'CALCUT' as name,
+        'CALCUTI' as name,
         'CT' as state,
-        '2020-01-02 00:00:00.000'::timestamp as updated_at
+        '2020-01-03 00:00:00.000'::timestamp as updated_at
     union all
     select
         3 as id,
